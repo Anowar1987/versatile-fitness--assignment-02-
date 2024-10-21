@@ -1,4 +1,46 @@
-h2{
-    font-size: 64px;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font{
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #000000;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* Header related styles */
+.header{
+    max-width: 1060px;
+}
+/* Navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 60px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#home{
+    border-radius: 46px;
+    background-color: #E6533C;
+    padding: 8px 20px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.nav-font{
+    font-size: 1.12rem;
 }

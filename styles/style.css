@@ -1,39 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
-.font{
+.font-main {
     font-family: "Inter", sans-serif;
 }
-body{
+
+.font-secondary {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
     background-color: #000000;
-}
-/* shared styles */
-.display-flex{
-    display: flex;
-}
-/* Header related styles */
-.header{
-    max-width: 1060px;
-}
-/* Navbar related styles */
-.navbar{
-    justify-content: space-between;
-    align-items: center;
     margin-left: 90px;
     margin-right: 90px;
 }
-.nav-title{
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+/* Header related styles */
+.header {
+    max-width: 1060px;
+}
+
+/* Navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
     font-size: 2.25rem;
     font-weight: 800;
     color: #E6533C;
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
     margin-left: 60px;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
 }
-#home{
+
+#home {
     border-radius: 46px;
     background-color: #E6533C;
     padding: 8px 20px;
@@ -41,6 +56,26 @@ body{
     font-weight: 600;
     color: #FFFFFF;
 }
-.nav-font{
+
+.nav-font {
     font-size: 1.12rem;
 }
+
+/* Banner related styles */
+.banner-title {
+    font-size: 4.85rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        margin-left: 20px;
+        margin-right: 10px;
+
+        .nav-item {
+            display: none;
+        }
+
+    }

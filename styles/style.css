@@ -22,6 +22,19 @@ body {
     display: flex;
 }
 
+.description {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
 /* Header related styles */
 .header {
     max-width: 1060px;
@@ -68,6 +81,22 @@ body {
     color: #FFFFFF;
 }
 
+.banner-description {
+    margin-top: 28px;
+}
+
+.btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: rgb(0, 0, 0);
+    padding: 16px 40px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+
 
 @media screen and (max-width: 576px) {
     .navbar {
@@ -79,3 +108,4 @@ body {
         }
 
     }
+}

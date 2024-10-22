@@ -198,4 +198,12 @@ body {
     .btn-secondary{
         display: flex;
     }
+    .change-habit-container{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .change-habit-card-container{
+        flex-direction: column;
+    }
+
 }

@@ -143,16 +143,33 @@ body {
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
-
+/* Change habit section related styles */
+.change-habit-container{
+    margin-top: 100px;
+}
+.change-habit-content{
+    margin: 0 auto;
+    text-align: center;
+}
+.change-habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
 
 @media screen and (max-width: 576px) {
     .navbar {
         margin-left: 20px;
         margin-right: 10px;
-
-        .nav-item {
-            display: none;
-        }
-
+    }
+    .nav-item {
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .btn-secondary{
+        display: flex;
     }
 }

@@ -75,12 +75,14 @@ body {
 }
 
 /* Banner related styles */
-.banner-container{
+.banner-container {
     gap: 80px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 600px;
 }
+
 .banner-title {
     font-size: 4rem;
     font-weight: 900;
@@ -101,10 +103,45 @@ body {
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
-.banner-img{
+
+.banner-img {
     max-width: 348px;
     height: 400px;
     margin-left: 86px;
+}
+
+.btn-secondary-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 20px;
+    max-width: 200px;
+    height: 90px;
+    margin-left: -400px;
+    margin-top: -600px;
+}
+
+.btn-secondary-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    max-width: 193px;
+    max-height: 95px;
+    margin-bottom: -337px;
+}
+
+#video-number {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+#tutorial{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
 }
 
 

@@ -157,14 +157,31 @@ body {
     color: rgb(255, 255, 255);
     margin-bottom: 14px;
 }
+.change-habit-card-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 40px;
+    margin-top: 50px;
+}
+.change-habit-card{
+    max-width: 230px;
+    gap: 40px;
+}
+.card-img{
+    border-radius: 50%;
+}
 .card-title{
     font-size: 1.12rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 25px;
 }
 .card-description{
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 6px;
 }
 
 @media screen and (max-width: 576px) {

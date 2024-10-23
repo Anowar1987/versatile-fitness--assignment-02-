@@ -369,7 +369,16 @@ footer .footer-nav ul li a {
         width: 285px;
         height: 170px;
     }
-
+    .calculator-container {
+        margin-top: 20px;
+    }
+    .calculator-chart-form{
+        flex-direction: column;
+    }
+    .claculator-form{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .team-images {
         max-width: 350px;
         padding: 20px;
@@ -395,4 +404,5 @@ footer .footer-nav ul li a {
     .footer-nav {
         flex-direction: column;
     }
+
 }

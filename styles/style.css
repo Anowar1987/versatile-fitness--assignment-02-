@@ -226,6 +226,38 @@ body {
     height: 100%;
     border-radius: 18px;
 }
+/* Footer related styles */
+.footer-container{
+    max-width: 1440px;
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 65px 190px 79px 190px;
+    gap: 100px;
+}
+.footer-title{
+    font-size: 4.37rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+}
+.footer-nav{
+    gap: 150px;
+}
+.footer-content, .footer-nav{
+    max-width: 50%;
+}
+.footer-nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.nav-link{
+    margin-left: -100px;
+}
+footer .footer-nav ul li a{
+    color: (255, 255, 255, 0.5);
+}
+
 
 
 @media screen and (max-width: 576px) {

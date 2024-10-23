@@ -248,6 +248,7 @@ body {
     width: 100%;
     border-collapse: collapse;
 }
+
 .bmi-form input {
     width: 282.5px;
     height: 48px;
@@ -284,6 +285,25 @@ body {
     max-width: 100%;
     height: 100%;
     border-radius: 18px;
+}
+
+/* Health & Fitness section related styles */
+.Health-and-Fitness-Tips-container{
+    margin-top: 80px;
+    max-width: 1060px;
+}
+.fitness-image img{
+    max-width: 500px;
+    border-radius: 16px;
+}
+.fitness-image{
+    gap: 50px;
+    margin-top: 30px;
+}
+.more-info{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
 }
 
 /* Footer related styles */
@@ -324,7 +344,8 @@ body {
 footer .footer-nav ul li a {
     color: (255, 255, 255, 0.5);
 }
-.copyrirgt{
+
+.copyrirgt {
     font-size: 1.25rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -375,16 +396,20 @@ footer .footer-nav ul li a {
         width: 285px;
         height: 170px;
     }
+
     .calculator-container {
         margin-top: 20px;
     }
-    .calculator-chart-form{
+
+    .calculator-chart-form {
         flex-direction: column;
     }
-    .claculator-form{
+
+    .claculator-form {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .team-images {
         max-width: 350px;
         padding: 20px;

@@ -182,6 +182,14 @@ body {
     border-radius: 18px;
 }
 
+/* BMI Calcilator section related styles */
+.calculator-container{
+    margin-top: 78px;
+}
+.calculator-content{
+    text-align: center;
+}
+
 /* Meet our teem section related styles */
 .meet-our-team-container {
     margin-top: 85px;
